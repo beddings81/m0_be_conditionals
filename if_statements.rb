@@ -41,7 +41,7 @@ end
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
 
-num_quarters = 0
+num_quarters = 4
 if num_quarters >= 2
   p "I have enough money for a gumball"
 elsif num_quarters < 2
