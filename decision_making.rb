@@ -35,9 +35,17 @@ end
 
 # Questions
 # 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
+# This is an elsif conditional. if door choice = 1 then bear_clothing = hat elsif
+# door choice = 2 then bear_clothing = scarf
 # 2. What variable has a new value assigned to it after the first if statement executes?
+# bear_clothing
 # 3. If you changed the variable door_choice to equal 3, what would the bear_clothing value be?
+# scarf
 # 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+# This is an else conditional. If none of the other conditionals are met then the else conditional will run
 # 5. If you changed the variable bear_choice to equal 3, what will be the final outcome be?
+# "You run into a room full of snakes"
 # 6. If you changed the variable door_choice to equal 1, and the variable bear_choice to equal 2, what will be the final outcome be?
+# The bear has a hat. You will make the bear cry
 # 7. What is your favorite ending?
+# The secret passage out!
