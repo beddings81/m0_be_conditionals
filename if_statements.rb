@@ -69,3 +69,8 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+
+if cups_of_flour >= 2 && has_sauce == true
+  p "I can make pizza"
+elsif cups_of_flour < 2 || has_sauce == false
+  p "I cannot make pizza"
