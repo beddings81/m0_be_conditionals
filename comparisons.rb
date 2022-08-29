@@ -22,24 +22,31 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
+puts "Is number_teachers less than number_students?", number_teachers < number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
+puts "Is number_teachers equal to string_teachers?", number_teachers == string_teachers
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
+puts "Is number_teachers not equal to number_students", number_teachers != number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+puts "Is number_students greater than or equal to 20?", number_students >= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+puts "Is number_students greater than or equal to 21?", number_students >= 21
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+puts "Is number_students les than or equal to 20?", number_students <= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+puts "Is number_students less than or equal to 21?", number_students <= 21
 # this should print: true
 
 
@@ -53,21 +60,23 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: Explain. 4 is less than 9. True
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: Explain. This line is saying that 4 is less than books, but books = 3. False
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: Explain. This line is saying that friends is greater than siblings. this
+# is true because 6 > 2
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: Explain. This line is saying that the number of attendees and meals is
+# not equal
 
 
 #-------------------
@@ -80,8 +89,10 @@ finished_homework = false
 # EXAMPLE:
 # Determine if the user is hungry and has completed their homework
 is_hungry && finished_homework
+# False, finished_homework = false
 # Determine if the user is hungry or has completed their homework
 is_hungry || finished_homework
+# True, is_hungry = True
 
 loves_to_play = true
 loves_dog_park = false
@@ -90,15 +101,16 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
+#True, both are ture
 
 
 # Determine if the dog loves to play and loves the dog park
-
+#False, loves_dog_park = False
 
 # Determine if the dog loves to play or loves the dog park
-
+#True, loves_to_play = True
 
 # Determine if the dog loves to play and is a puppy
-
+#True, both are True
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: loves_to_play && age > 2
